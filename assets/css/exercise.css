@@ -1,0 +1,58 @@
+.content {
+    font-size: 2rem;
+}
+
+.content > .title {
+    font-size: 2.5rem;
+    font-weight: 300;
+    padding-bottom: 10px;
+    border-top: 3px solid rgb(58, 58, 58);
+    border-bottom: 3px solid rgb(58, 58, 58);
+    margin-bottom: 20px;
+}
+
+h1.name {
+    display: flex;
+    align-items: center;
+    font-size: 30px;
+    padding: 40;
+}
+
+.course {
+    margin: auto;
+}
+
+.box {
+    width: 20%;
+    height: 40px;
+    display: inline;
+    padding: auto;
+}
+
+.box > .btn.btn-danger {
+
+    width: 100%;
+}
+
+.box > .btn.btn-info {
+    width: 100%;
+}
+
+.box > .btn.btn-success {
+    width: 100%;
+}
+
+.box > .btn.btn-primary.btn-lg {
+    width: 100%;
+}
+
+.btn.btn-primary {
+    display: flex;
+    align-items: center;
+    padding: auto;
+    width: 4rem;
+}
+
+
+
+

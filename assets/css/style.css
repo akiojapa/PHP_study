@@ -1,0 +1,241 @@
+* {
+    font-family: "Oswald", "sans-serif";
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    margin: 0px;
+    display: grid;
+    grid-template-rows: 120px 60px 1fr 60px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        "intro"
+        "navigation"
+        "principal"
+        "foot";
+}
+
+.intro {
+    grid-area: intro;
+    background-color: #4747ff;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
+    z-index: 1;
+    box-shadow: 0px 4px 9px -2px rgba(0, 0, 0, 0.75);
+}
+
+.intro > h1 {
+    margin: 0px;
+    font-weight: 300;
+    font-size: 2.8rem;
+}
+
+.intro > h2 {
+    margin: 0px;
+    font-weight: 200;
+    font-size: 1.6rem;
+}
+
+.principal {
+    grid-area: principal;
+    height: calc(100vh - 240px);
+    background-color: #e7e7e7;
+    padding: 20px;
+}
+
+.content {
+    position: relative;
+    height: 100%;
+    overflow-y: scroll;
+    background: #fff;
+    padding: 20px;
+    box-shadow: 0px 0px 25px 0px rgba(0, 0, 0, 0.2);
+}
+
+
+.foot {
+    grid-area: foot;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    padding-right: 20px;
+    opacity: 0.5;
+    color: black;
+}
+
+.modulos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.modulo {
+    flex-basis: 32%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+.modulo > h3 {
+    margin: 0px;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    background-color: darkslateblue;
+}
+
+.modulo > ul {
+    margin: 0px;
+    padding: 10px;
+    list-style: none;
+}
+
+.modulo > ul > li {
+    padding: 10px;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.modulo > ul > li > a {
+    display: flex;
+    text-decoration: none;
+    color: #222;
+}
+
+.modulo > ul > li:hover {
+    background-color: #d9d5ff;
+}
+
+.modulo.green {
+    border: 2px solid green;
+}
+.modulo.green > h3 {
+    background-color: green;
+}
+
+.modulo.red {
+    border: 2px solid red;
+}
+.modulo.red > h3 {
+    background-color: red;
+}
+
+.modulo.blue {
+    border: 2px solid blue;
+}
+.modulo.blue > h3 {
+    background-color: blue;
+}
+
+.modulo.yellow {
+    border: 2px solid rgb(218, 218, 8);
+}
+.modulo.yellow > h3 {
+    background-color: rgb(218, 218, 8);
+}
+
+.modulo.orange {
+    border: 2px solid orange;
+}
+.modulo.orange > h3 {
+    background-color: orange;
+}
+
+.modulo.cyan {
+    border: 2px solid rgb(18, 223, 223);
+}
+.modulo.cyan > h3 {
+    background-color: rgb(18, 223, 223);
+}
+
+.modulo.violet {
+    border: 2px solid violet;
+}
+.modulo.violet > h3 {
+    background-color: violet;
+}
+
+.modulo.gray {
+    border: 2px solid gray;
+}
+.modulo.gray > h3 {
+    background-color: gray;
+}
+
+.modulo.black {
+    border: 2px solid black;
+}
+.modulo.black > h3 {
+    background-color: black;
+}
+
+.modulo.purple {
+    border: 2px solid #740bd6;
+}
+
+.modulo.purple > h3 {
+    background-color: #740bd6;
+}
+
+.modulo.brown {
+    border: 2px solid #692b07;
+}
+
+.modulo.brown > h3 {
+    background-color: #692b07;
+}
+
+.modulo.beige {
+    border: 2px solid #ebdec6
+}
+
+.modulo.beige > h3 {
+    background-color: #ebdec6;
+}
+
+.navigation {
+    grid-area: navigation;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #555;
+}
+
+.navigation > a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 300;
+    font-size: 1.3rem;
+    background-color: #2196f3;
+    padding: 5px 10px;
+    margin-right: 10px;
+}
+
+span.user {
+    flex-grow: 1;
+    justify-self: flex-start;
+    color: #fff;
+    padding-left: 10px;
+    font-size: 1.2rem;
+    font-weight: 300;
+}
+
+.navigation > a.green {
+    background-color: green;
+}
+
+.navigation > a.red {
+    background-color: red;
+}
+
+.navigation > a.cian {
+    background-color: #2196f3;
+}
+
