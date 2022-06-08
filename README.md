@@ -34,9 +34,9 @@ Estão separados por sessões todo o progresso do código e até aprensenta um C
 `Git-HUB`: Após abrir o terminal, digite git clone https://github.com/akiojapa/PHP_study.git ou então baixe o arquivo diretamente daqui https://github.com/akiojapa/PHP_study.git
 e jogue denro da pasta.
 
-`Executando a aplicação`:Então abra um navegador local e digite localhost/PHP_study
+`Executando a aplicação`: Então abra um navegador local e digite localhost/PHP_study
 
-`Utilizando o site` Como login:convidado@email.com.br e senha: 123456 será o bastante para acessar o site e então utiliza-lo da maneira como quiser!
+`Utilizando o site`: Como login:convidado@email.com.br e senha: 123456 será o bastante para acessar o site e então utiliza-lo da maneira como quiser!
   
 
 
